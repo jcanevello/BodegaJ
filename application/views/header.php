@@ -20,7 +20,7 @@
                         <!--li><a href="user-profile.html"><i class="fa fa-user"></i>Profile</a></li-->
                         <li><a href="#"><i class="fa fa-cog"></i>Configuración</a></li>
                         <li><a href="#"><i class="fa fa-envelope-o"></i>Mensajes</a></li>
-                        <li><a href="#"><i class="fa fa-power-off"></i>Cerrar sesión</a></li>
+                        <li><a href="/BodegaJ/login/logout"><i class="fa fa-power-off"></i>Cerrar sesión</a></li>
                     </ul>
                 </li>
                 <li class="hidden-xxs">

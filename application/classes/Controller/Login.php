@@ -13,5 +13,10 @@ class Controller_Login extends Controller_Template {
         $this->auto_render = false;
         $this->response->body(View::factory('login'));
     }
+    
+    public function action_logout() {
+        Session::instance()->destroy('user');
+        $this->redirect('/');
+    }
 
 }
