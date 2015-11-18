@@ -1,6 +1,6 @@
 <header class="navbar" id="header-navbar">
     <div class="container">
-        <a href="index.html" id="logo" class="navbar-brand col-md-3 col-sm-3 col-xs-12">
+        <a href="/BodegaJ" id="logo" class="navbar-brand col-md-3 col-sm-3 col-xs-12">
             <img src="/BodegaJ/media/img/logo.png" alt=""/> <span>Bodega Jessica</span>
         </a>
 

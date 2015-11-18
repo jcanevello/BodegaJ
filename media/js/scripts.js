@@ -1,4 +1,5 @@
 $(function($) {
+        $('#sel2').select2();
 	setTimeout(function() {
 		$('#content-wrapper > .row').css({
 			opacity: 1, 

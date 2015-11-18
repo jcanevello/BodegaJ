@@ -21,11 +21,16 @@
 
 	<!-- this page specific styles -->
     <link rel="stylesheet" href="/BodegaJ/media/css/libs/fullcalendar.css" type="text/css" />
-    <link rel="stylesheet" href="/BodegaJ/media/css/libs/fullcalendar.print.css" type="text/css" /BodegaJ/media="print" />
-    <link rel="stylesheet" href="/BodegaJ/media/css/compiled/calendar.css" type="text/css" /BodegaJ/media="screen" />
+    <link rel="stylesheet" href="/BodegaJ/media/css/libs/fullcalendar.print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/BodegaJ/media/css/compiled/calendar.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="/BodegaJ/media/css/libs/morris.css" type="text/css" />
 	<link rel="stylesheet" href="/BodegaJ/media/css/libs/daterangepicker.css" type="text/css" />
 	<link rel="stylesheet" href="/BodegaJ/media/css/libs/jquery-jvectormap-1.2.2.css" type="text/css" />
+    
+    <link rel="stylesheet" href="/BodegaJ/media/css/libs/datepicker.css" type="text/css" />
+	<link rel="stylesheet" href="/BodegaJ/media/css/libs/daterangepicker.css" type="text/css" />
+	<link rel="stylesheet" href="/BodegaJ/media/css/libs/bootstrap-timepicker.css" type="text/css" />
+	<link rel="stylesheet" href="/BodegaJ/media/css/libs/select2.css" type="text/css" />
 	
 	<!-- Favicon -->
 	<link type="image/x-icon" href="favicon.png" rel="shortcut icon"/>
@@ -40,17 +45,7 @@
 	<!--[if lt IE 8]>
 		<link href="/BodegaJ/media/css/libs/font-awesome-ie7.css" type="text/css" rel="stylesheet" />
 	<![endif]-->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-49262924-1', 'phoonio.com');
-	  ga('send', 'pageview');
-
-	</script>
-</head>
+    </head>
 <body>
 	<?php echo $header ?>
 	<div class="container">
