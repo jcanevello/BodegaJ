@@ -103,7 +103,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 Kohana::init(array(
-	'base_url'   => '/',
+	'base_url'   => '/BodegaJ',
 	'index_file' => FALSE,
 	'errors'     => TRUE,
 )); 
@@ -140,7 +140,7 @@ Kohana::modules(array(
  * If you have not defined a cookie salt in your Cookie class then
  * uncomment the line below and define a preferrably long salt.
  */
-// Cookie::$salt = NULL;
+ Cookie::$salt = "NULL";
 
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
@@ -151,3 +151,4 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 		'controller' => 'dashboard',
 		'action'     => 'index',
 	));
+

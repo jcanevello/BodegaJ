@@ -34,13 +34,13 @@
                             <td><?php echo $oProveedor->telefono ?></td>
                             <td><?php echo $oProveedor->email ?></td>
                             <td style="width: 15%;">
-                                <a href="/proveedor/editar/<?php echo $oProveedor->id ?>" class="table-link">
+                                <a href="/BodegaJ/proveedor/editar/<?php echo $oProveedor->id ?>" class="table-link">
                                     <span class="fa-stack">
                                         <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
-                                <a href="/proveedor/eliminar/<?php echo $oProveedor->id ?>" class="table-link danger">
+                                <a href="/BodegaJ/proveedor/eliminar/<?php echo $oProveedor->id ?>" class="table-link danger">
                                     <span class="fa-stack">
                                         <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>

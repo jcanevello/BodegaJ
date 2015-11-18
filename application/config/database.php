@@ -21,7 +21,7 @@ return array
 			'hostname'   => 'localhost',
 			'database'   => 'bodegaj',
 			'username'   => 'root',
-			'password'   => 'root',
+			'password'   => '123456',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',

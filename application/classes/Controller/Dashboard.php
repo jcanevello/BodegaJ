@@ -4,7 +4,7 @@ class Controller_Dashboard extends Controller_Main {
 
 	public function action_index()
 	{
-            $this->template->content = View::factory('dashboard');
+            $this->template->content = View::factory('dashboard/admin');
 //            $this->response->body('hello, world!');
 	}
 

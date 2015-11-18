@@ -1,34 +1,34 @@
 <footer id="footer-bar">
     <p id="footer-copyright">
-        &copy; 2014 <a href="http://www.adbee.sk/" target="_blank">Adbee digital</a>. Powered by SuperheroAdmin.
+        &copy; 2015 - Powered by Grupo 6 - Taller De Proyectos - FISI - UNMSM.
     </p>
 </footer>
 
 <!-- global scripts -->
-<script src="/media/js/jquery.js"></script>
-<script src="/media/js/bootstrap.js"></script>
+<script src="/BodegaJ/media/js/jquery.js"></script>
+<script src="/BodegaJ/media/js/bootstrap.js"></script>
 
 <!-- this page specific scripts -->
-<script src="/media/js/jquery-ui.custom.min.js"></script>
-<script src="/media/js/fullcalendar.min.js"></script>
-<script src="/media/js/jquery.slimscroll.min.js"></script>
-<script src="/media/js/raphael-min.js"></script>
-<script src="/media/js/morris.min.js"></script>
-<script src="/media/js/moment.min.js"></script>
-<script src="/media/js/daterangepicker.js"></script>
-<script src="/media/js/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="/media/js/jquery-jvectormap-world-merc-en.js"></script>
-<script src="/media/js/gdp-data.js"></script>
-<script src="/media/js/flot/jquery.flot.js"></script>
-<script src="/media/js/flot/jquery.flot.min.js"></script>
-<script src="/media/js/flot/jquery.flot.pie.min.js"></script>
-<script src="/media/js/flot/jquery.flot.stack.min.js"></script>
-<script src="/media/js/flot/jquery.flot.resize.min.js"></script>
-<script src="/media/js/flot/jquery.flot.time.min.js"></script>
-<script src="/media/js/flot/jquery.flot.threshold.js"></script>
+<script src="/BodegaJ/media/js/jquery-ui.custom.min.js"></script>
+<script src="/BodegaJ/media/js/fullcalendar.min.js"></script>
+<script src="/BodegaJ/media/js/jquery.slimscroll.min.js"></script>
+<script src="/BodegaJ/media/js/raphael-min.js"></script>
+<script src="/BodegaJ/media/js/morris.min.js"></script>
+<script src="/BodegaJ/media/js/moment.min.js"></script>
+<script src="/BodegaJ/media/js/daterangepicker.js"></script>
+<script src="/BodegaJ/media/js/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="/BodegaJ/media/js/jquery-jvectormap-world-merc-en.js"></script>
+<script src="/BodegaJ/media/js/gdp-data.js"></script>
+<script src="/BodegaJ/media/js/flot/jquery.flot.js"></script>
+<script src="/BodegaJ/media/js/flot/jquery.flot.min.js"></script>
+<script src="/BodegaJ/media/js/flot/jquery.flot.pie.min.js"></script>
+<script src="/BodegaJ/media/js/flot/jquery.flot.stack.min.js"></script>
+<script src="/BodegaJ/media/js/flot/jquery.flot.resize.min.js"></script>
+<script src="/BodegaJ/media/js/flot/jquery.flot.time.min.js"></script>
+<script src="/BodegaJ/media/js/flot/jquery.flot.threshold.js"></script>
 
 <!-- theme scripts -->
-<script src="/media/js/scripts.js"></script>
+<script src="/BodegaJ/media/js/scripts.js"></script>
 
 <!-- this page specific inline scripts -->
 <script>

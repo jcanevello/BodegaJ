@@ -1,7 +1,7 @@
 <header class="navbar" id="header-navbar">
     <div class="container">
         <a href="index.html" id="logo" class="navbar-brand col-md-3 col-sm-3 col-xs-12">
-            <img src="/media/img/logo.png" alt=""/> <span>Bodega Jessica</span>
+            <img src="/BodegaJ/media/img/logo.png" alt=""/> <span>Bodega Jessica</span>
         </a>
 
         <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
@@ -13,7 +13,7 @@
             <ul class="nav navbar-nav pull-right">
                 <li class="dropdown profile-dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="/media/img/samples/profile-photo.png" alt=""/>
+                        <img src="/BodegaJ/media/img/samples/profile-photo.png" alt=""/>
                         <span class="hidden-xs">Juan Perez</span> <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
