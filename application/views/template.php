@@ -6,7 +6,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>SuperheroAdmin - Bootstrap Admin Template</title>
+	<title>Bodega Jessica</title>
 	
 	<!-- bootstrap -->
 	<link href="/BodegaJ/media/css/bootstrap/bootstrap.css" rel="stylesheet" />

@@ -8,7 +8,8 @@ return array(
 		// Example:
 		//
 		//'bodegaj.dev',
-		//        '.*\.example\.org',
+            'localhost',
+//            '.*\.example\.org',
 		//
 		// Do not forget to escape your dots (.) as these are regex patterns.
 		// These patterns should always fully match,
