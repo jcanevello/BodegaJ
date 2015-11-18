@@ -55,6 +55,7 @@
 				<div class="row">
 					<div class="col-lg-12">
                         <?php echo $content ?>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 					</div>
 				</div>
 			</div>
