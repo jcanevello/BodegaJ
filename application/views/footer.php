@@ -14,7 +14,7 @@
 <script src="/BodegaJ/media/js/fullcalendar.min.js"></script>
 <script src="/BodegaJ/media/js/jquery.slimscroll.min.js"></script>
 <script src="/BodegaJ/media/js/raphael-min.js"></script>
-<!--<script src="/BodegaJ/media/js/morris.min.js"></script>-->
+<script src="/BodegaJ/media/js/morris.min.js"></script>
 <script src="/BodegaJ/media/js/moment.min.js"></script>
 <script src="/BodegaJ/media/js/daterangepicker.js"></script>
 <script src="/BodegaJ/media/js/jquery-jvectormap-1.2.2.min.js"></script>
@@ -28,6 +28,8 @@
 <script src="/BodegaJ/media/js/flot/jquery.flot.resize.min.js"></script>
 <script src="/BodegaJ/media/js/flot/jquery.flot.time.min.js"></script>
 <script src="/BodegaJ/media/js/flot/jquery.flot.threshold.js"></script>
+<!--<script src="/BodegaJ/media/js/raphael-min.js"></script>-->
+<!--<script src="/BodegaJ/media/js/morris.js"></script>-->
 
 <script src="/BodegaJ/media/js/jquery.maskedinput.min.js"></script>
 <script src="/BodegaJ/media/js/bootstrap-datepicker.js"></script>
@@ -38,6 +40,9 @@
 <script src="/BodegaJ/media/js/hogan.js"></script>
 <script src="/BodegaJ/media/js/typeahead.min.js"></script>
 <script src="/BodegaJ/media/js/jquery.pwstrength.js"></script>
+<script src="/BodegaJ/media/js/jquery.dataTables.min.js"></script>
+<script src="/BodegaJ/media/js/dataTables.bootstrap.min.js"></script>
+<script src="/BodegaJ/media/js/jquery.PrintArea.js"></script>
 
 <!-- theme scripts -->
 <script src="/BodegaJ/media/js/scripts.js"></script>

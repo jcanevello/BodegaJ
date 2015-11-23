@@ -50,6 +50,56 @@ $(function ($) {
         }
     });
 
+    $('.onoffswitch-checkbox').click(function () {
+        var $this = $(this);
+        var id = $this.data('id');
+        var input = '<input class="input_stock" type="number" min="5" style="width: 50px;" id="stock_' + id + '" name="producto[' + id + '][]" value="5" required>'
+        var content = '#content_stock_' + id
+
+        if ($this.hasClass('active')) {
+            $this.removeClass('active')
+            $(content).html('');
+        }
+        else {
+            $this.addClass('active')
+            $(content).html(input)
+        }
+    })
+
+    $('.datatable').DataTable();
+    $('.datatable2').DataTable({
+        "order": [[0, "desc"]]
+    });
+
+    $('.btn-add').click(function () {
+        var $registro = $(this).parent().parent();
+        var stock = $(this).data('stock');
+        var id = $(this).data('id');
+        var select = '<select class="form-control" name="prod[' + id + '][]">'
+        for (var i = 1; i < (stock + 1); i++) {
+            select += "<option value='" + i + "'>" + i + "</option>"
+        }
+        select += '</select>'
+
+        $(this).parent().html(select)
+        var row_new = $registro.clone();
+        row_new.appendTo($('#table-venta > tbody'))
+        $registro.remove()
+    })
+
+    $('#btn-mostrar-todo').click(function () {
+        var r = confirm('Esta acción borrará las cantidades ingresadas');
+        if (r == true)
+            window.location = "/BodegaJ/pedido/nuevo/t";
+        return false;
+    })
+
+    $('#btn-imprimir').click(function () {
+        $('.content-boleta').printArea();
+    });
+
+    
+
 });
 
 (function ($, sr) {

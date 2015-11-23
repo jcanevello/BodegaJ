@@ -3,18 +3,8 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="main-box clearfix">
-            <div class="clearfix">
-
-                <div class="filter-block pull-right">
-                    <div class="form-group pull-left">
-                        <input type="text" class="form-control" placeholder="Buscar...">
-                        <i class="fa fa-search search-icon"></i>
-                    </div>
-                </div>
-            </div>
-
             <div class="table-responsive">
-                <table class="table">
+                <table class="table  datatable">
                     <thead>
                         <tr>
                             <th><a href="#"><span>Nombre</span></a></th>

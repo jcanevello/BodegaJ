@@ -8,9 +8,11 @@ class Controller_Producto extends Controller_Main {
     // Lista a todos los productoes
     public function action_index()
     {
-//        $aProducto = ORM::factory('Producto')->find_all();
-        $this->template->content = View::factory('producto/todos'); // producto es la carpeta y todos el archivo todos.php
-//            ->set('aProducto', $aProducto); // Es igual a aProducto = $aProducto, aProducto se usa en la vista
+        $aProducto = ORM::factory('Producto')
+            ->order_by('nombre', 'ASC')
+            ->find_all();
+        $this->template->content = View::factory('producto/todos') // producto es la carpeta y todos el archivo todos.php
+            ->set('aProducto', $aProducto); // Es igual a aProducto = $aProducto, aProducto se usa en la vista
     }
 
     public function action_editar()
@@ -26,18 +28,22 @@ class Controller_Producto extends Controller_Main {
         }
         
         // Acciones que se ejecutan cuando hacen click en editar
+        $aProveedor = ORM::factory('Proveedor')->find_all();
         $oProducto = ORM::factory('Producto',$id);
         $this->template->content = View::factory('producto/editar')
-            ->set('oProducto', $oProducto);
+            ->set('oProducto', $oProducto)
+            ->set('aProveedor', $aProveedor);
     }
 
     public function action_nuevo()
     {
         if ($this->request->method() == 'POST') {
-//            $this->guardar(NULL);
+            $this->guardar(NULL);
             $this->redirect('/producto');
         }
-        $this->template->content = View::factory('producto/nuevo');
+        $aProveedor = ORM::factory('Proveedor')->find_all();
+        $this->template->content = View::factory('producto/nuevo')
+            ->set('aProveedor', $aProveedor);
     }
     
     public function action_eliminar()

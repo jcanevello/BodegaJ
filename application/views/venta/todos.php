@@ -1,32 +1,9 @@
-<div class="row">
-    <div class="col-lg-3 col-sm-6 col-xs-12">
-        <div class="main-box infographic-box">
-            <i class="fa fa-user red"></i>
-            <span class="headline">Trabajadores</span>
-            <span class="value"><?php echo $nUser ?></span>
-        </div>
-    </div>
-    <div class="col-lg-3 col-sm-6 col-xs-12">
-        <div class="main-box infographic-box">
-            <i class="fa fa-shopping-cart emerald"></i>
-            <span class="headline">Productos Vendidos</span>
-            <span class="value"><?php echo $venta ?></span>
-        </div>
-    </div>
-    <div class="col-lg-3 col-sm-6 col-xs-12">
-        <div class="main-box infographic-box">
-            <i class="fa fa-money green"></i>
-            <span class="headline">Ingreso Mensual</span>
-            <span class="value">S/.<?php echo $ingreso ?></span>
-        </div>
-    </div>
-</div>
+<h1>Ventas</h1>
 
 <div class="row">
     <div class="col-lg-12">
-        <div class="main-box">
-            <h2>Ventas del último mes</h2>
-            <table class="table datatable2">
+        <div class="main-box clearfix">
+            <table class="table datatable2" >
                 <thead>
                     <tr>
                         <th><a href="#"><span>N° Venta</span></a></th>

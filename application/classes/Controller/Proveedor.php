@@ -8,7 +8,9 @@ class Controller_Proveedor extends Controller_Main {
     // Lista a todos los proveedores
     public function action_index()
     {
-        $aProveedor = ORM::factory('Proveedor')->find_all();
+        $aProveedor = ORM::factory('Proveedor')
+            ->order_by('nombre', 'ASC')
+            ->find_all();
         $this->template->content = View::factory('proveedor/todos') // proveedor es la carpeta y todos el archivo todos.php
             ->set('aProveedor', $aProveedor); // Es igual a aProveedor = $aProveedor, aProveedor se usa en la vista
     }

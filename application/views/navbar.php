@@ -5,6 +5,7 @@ $action = Request::$current->action();
 <div class="col-md-2" id="nav-col">
     <section id="col-left">
         <div class="collapse navbar-collapse navbar-ex1-collapse" id="sidebar-nav">	
+            <?php if($oUser->tipo == 0): ?>
             <ul class="nav nav-pills nav-stacked">
                 <li class="<?php echo ($controller=='Dashboard') ? 'active' : NULL  ?>">
                     <a href="/BodegaJ">
@@ -19,7 +20,7 @@ $action = Request::$current->action();
                     </a>
                 </li>
                 <li class="<?php echo ($controller=='Venta' && $action=='nuevo') ? 'active' : NULL  ?>">
-                    <a href="/BodegaJ/venta/nuevo">
+                    <a href="/BodegaJ/venta/registro">
                         <i class="fa  fa-shopping-cart"></i>
                         <span>Registrar Venta</span>
                     </a>
@@ -35,7 +36,7 @@ $action = Request::$current->action();
                             <a href="/BodegaJ/producto"class="<?php echo ($controller=='Producto' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
                         </li>
                         <li>
-                            <a href="/BodegaJ/producto/nuevo"class="<?php echo ($controller=='Proucto' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
+                            <a href="/BodegaJ/producto/nuevo"class="<?php echo ($controller=='Producto' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
                         </li>
                     </ul>
                 </li>
@@ -84,8 +85,45 @@ $action = Request::$current->action();
                         </li>
                     </ul>
                 </li>
-
             </ul>
+            <?php endif ?>
+            <?php if($oUser->tipo == 1): ?>
+            <ul class="nav nav-pills nav-stacked">
+                
+                <li class="<?php echo ($controller=='Pedido') ? 'active' : NULL  ?>">
+                    <a href="/BodegaJ/pedido">
+                        <i class="fa fa-plus-square"></i>
+                        <span>Pedidos</span>
+                    </a>
+                </li>
+                <li class="<?php echo ($controller=='Producto') ? 'active' : NULL  ?>">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="fa fa-barcode"></i>
+                        <span>Productos</span>
+                        <i class="fa fa-chevron-circle-down drop-icon"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="/BodegaJ/producto"class="<?php echo ($controller=='Producto' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
+                        </li>
+                        <li>
+                            <a href="/BodegaJ/producto/nuevo"class="<?php echo ($controller=='Producto' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
+                        </li>
+                    </ul>
+                </li>
+                
+            </ul>
+            <?php endif ?>
+            <?php if($oUser->tipo == 2): ?>
+            <ul class="nav nav-pills nav-stacked">
+                <li class="<?php echo ($controller=='Venta' && $action=='nuevo') ? 'active' : NULL  ?>">
+                    <a href="/BodegaJ">
+                        <i class="fa  fa-shopping-cart"></i>
+                        <span>Registrar Venta</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif ?>
         </div>
     </section>
 </div>

@@ -30,7 +30,7 @@
         <!--[if lt IE 8]>
             <link href="/BodegaJ/media/css/libs/font-awesome-ie7.css" type="text/css" rel="stylesheet" />
         <![endif]-->
-        
+
     </head>
     <body id="login-page">
         <div class="container">
@@ -56,6 +56,13 @@
                                     </div>
 
                                     <form role="form" action="" method="POST">
+                                        <?php if(!empty($error)): ?>
+                                        <div class="alert alert-danger fade in">
+                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                            <i class="fa fa-times-circle fa-fw fa-lg"></i>
+                                            <strong>Error!</strong><?php echo $error ?></a>.
+                                        </div>
+                                        <?php endif ?>
                                         <div class="input-group input-group-lg">
                                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                             <input class="form-control" type="text" name="usuario" placeholder="Usuario">
@@ -64,7 +71,7 @@
                                             <span class="input-group-addon"><i class="fa fa-key"></i></span>
                                             <input type="password" name="contrasena" class="form-control" placeholder="Contraseña">
                                         </div>
-                                        
+
                                         <div class="row">
                                             <div class="col-sm-6 col-xs-12 col-sm-push-6">
                                                 <button type="submit" class="btn btn-success col-xs-12">Login</button>

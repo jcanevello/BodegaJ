@@ -11,18 +11,19 @@ class Controller_Main extends Controller_Template {
 	public $footer = 'footer';
 	
 	public $oUser = null;
+    
 	
 	public function before() 
 	{
 		parent::before();
-		
+        
         $this->oUser = Session::instance()->get('user');
         
 		if( ! empty($this->oUser))
 		{
 //			$this->template->permisos = $this->oUser->permisos;
-			$this->template->header = View::factory('header');
-            $this->template->navbar = View::factory('navbar');
+			$this->template->header = View::factory('header')->set('oUser',$this->oUser);
+            $this->template->navbar = View::factory('navbar')->set('oUser',$this->oUser);
 			$this->template->footer = View::factory('footer');
 		}
 		else

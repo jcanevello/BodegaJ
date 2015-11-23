@@ -14,7 +14,7 @@
                 <li class="dropdown profile-dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <!--<img src="/BodegaJ/media/img/samples/profile-photo.png" alt=""/>-->
-                        <span class="hidden-xs">Administrador</span> <b class="caret"></b>
+                        <span class="hidden-xs" style="text-transform: uppercase"><?php echo $oUser->nombres ?></span> <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
                         <!--li><a href="user-profile.html"><i class="fa fa-user"></i>Profile</a></li-->
