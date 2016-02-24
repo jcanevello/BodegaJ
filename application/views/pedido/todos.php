@@ -25,7 +25,7 @@
                             <td><?php echo $oPedido->f_emision ?></td>
                             <td><?php echo $oPedido->f_recepcion ?></td>
                             <td><span class="label label-<?php echo $oPedido->get_color_estados($oPedido->estado); ?>"><?php echo $oPedido->get_estados($oPedido->estado) ?></span></td>
-                            <td><a href="/BodegaJ/pedido/detalle/<?php echo $oPedido->id ?>" class="table-link">
+                            <td><a href="/pedido/detalle/<?php echo $oPedido->id ?>" class="table-link">
                                     <span class="fa-stack">
                                         <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-search fa-stack-1x fa-inverse"></i>

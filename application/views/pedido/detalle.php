@@ -25,7 +25,7 @@
                             <td><?php echo $oPedido->estado ?></td>
                             <td>
                                 <?php if ($oPedido->estado != 'Recepcionado'): ?>
-                                    <a href="/BodegaJ/pedido/recep/<?php echo $oPedido->id ?>" class="btn btn-success">Recepcionado</a>
+                                    <a href="/pedido/recep/<?php echo $oPedido->id ?>" class="btn btn-success">Recepcionado</a>
                                 <?php endif ?>
                             </td>
                         </tr>
@@ -60,7 +60,7 @@
             </div>
             <?php if ($oPedido->estado != 'Recepcionado'): ?>
             <div class="form-group">
-                <form action="/BodegaJ/pedido/editarpro/<?php echo $oPedido->id ?>" method="POST">
+                <form action="/pedido/editarpro/<?php echo $oPedido->id ?>" method="POST">
                     <div class="form-group form-group-select2">
                         <label><strong>Cambiar proveedor</strong></label>
                         <select id="sel2" name="id_proveedor" style="width: 300px;" required="required">
@@ -82,7 +82,7 @@
         </div>
         <div class="main-box clearfix">
             <label style="font-size: 20px"><strong>Productos</strong></label>
-            <form id="form_new_pedido" action="/BodegaJ/pedido/guardarp/<?php echo $oPedido->id ?>" method="POST">
+            <form id="form_new_pedido" action="/pedido/guardarp/<?php echo $oPedido->id ?>" method="POST">
                 <div class="form-group">
                     <div class="table-responsive">
                         <table class="table table-hover">
@@ -104,7 +104,7 @@
                                         <td><?php echo $oProducto->fecha_vencimiento ?></td>
                                         <td>
                                             <?php if ($oPedido->estado != 'Recepcionado'): ?>
-                                                <a href="/BodegaJ/pedido/peliminar/<?php echo $aCantidad[$oProducto->id]['id'] ?>" class="table-link danger">
+                                                <a href="/pedido/peliminar/<?php echo $aCantidad[$oProducto->id]['id'] ?>" class="table-link danger">
                                                     <span class="fa-stack">
                                                         <i class="fa fa-square fa-stack-2x"></i>
                                                         <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
@@ -128,7 +128,7 @@
             </form>
         </div>
         <?php if ($oPedido->estado != 'Recepcionado'): ?>
-        <a href="/BodegaJ/pedido/eliminar/<?php echo $oPedido->id ?>" class="btn btn-danger">Cancelar Pedido</a>
+        <a href="/pedido/eliminar/<?php echo $oPedido->id ?>" class="btn btn-danger">Cancelar Pedido</a>
         <?php endif ?>
     </div>
 </div>

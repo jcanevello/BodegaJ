@@ -23,12 +23,12 @@
                             <td><?php echo $oUsuario->get_tipo() ?></td>
                             <td><?php echo $oUsuario->email ?></td>
                             <td><?php echo $oUsuario->telefono ?></td>
-                            <td><a href="/BodegaJ/usuario/editar/<?php echo $oUsuario->id ?>" class="table-link">
+                            <td><a href="/usuario/editar/<?php echo $oUsuario->id ?>" class="table-link">
                                     <span class="fa-stack">
                                         <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
                                     </span>
-                                </a><a href="/BodegaJ/usuario/eliminar/<?php echo $oUsuario->id ?>" class="table-link danger">
+                                </a><a href="/usuario/eliminar/<?php echo $oUsuario->id ?>" class="table-link danger">
                                     <span class="fa-stack">
                                         <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>

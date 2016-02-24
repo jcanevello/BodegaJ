@@ -21,7 +21,7 @@
                             <td><?php echo $oOrden->fecha_emision ?></td>
                             <td style="text-align: right;padding-right: 70px;"><?php echo $oOrden->total ?></td>
                             <td>
-                                <a href="/BodegaJ/venta/orden/<?php echo $oOrden->id ?>" class="btn btn-info btn-add"><span class="fa fa-search"></span></a>
+                                <a href="/venta/orden/<?php echo $oOrden->id ?>" class="btn btn-info btn-add"><span class="fa fa-search"></span></a>
                             </td>
                         </tr>
                     <?php endforeach ?>

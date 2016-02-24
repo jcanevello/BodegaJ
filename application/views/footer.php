@@ -6,46 +6,46 @@
 </footer>
 
 <!-- global scripts -->
-<script src="/BodegaJ/media/js/jquery.js"></script>
-<script src="/BodegaJ/media/js/bootstrap.js"></script>
+<script src="/media/js/jquery.js"></script>
+<script src="/media/js/bootstrap.js"></script>
 
 <!-- this page specific scripts -->
-<script src="/BodegaJ/media/js/jquery-ui.custom.min.js"></script>
-<script src="/BodegaJ/media/js/fullcalendar.min.js"></script>
-<script src="/BodegaJ/media/js/jquery.slimscroll.min.js"></script>
-<script src="/BodegaJ/media/js/raphael-min.js"></script>
-<script src="/BodegaJ/media/js/morris.min.js"></script>
-<script src="/BodegaJ/media/js/moment.min.js"></script>
-<script src="/BodegaJ/media/js/daterangepicker.js"></script>
-<script src="/BodegaJ/media/js/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="/BodegaJ/media/js/jquery-jvectormap-world-merc-en.js"></script>
-<script src="/BodegaJ/media/js/gdp-data.js"></script>
-<script src="/BodegaJ/media/js/select2.min.js"></script>
-<script src="/BodegaJ/media/js/flot/jquery.flot.js"></script>
-<script src="/BodegaJ/media/js/flot/jquery.flot.min.js"></script>
-<script src="/BodegaJ/media/js/flot/jquery.flot.pie.min.js"></script>
-<script src="/BodegaJ/media/js/flot/jquery.flot.stack.min.js"></script>
-<script src="/BodegaJ/media/js/flot/jquery.flot.resize.min.js"></script>
-<script src="/BodegaJ/media/js/flot/jquery.flot.time.min.js"></script>
-<script src="/BodegaJ/media/js/flot/jquery.flot.threshold.js"></script>
-<!--<script src="/BodegaJ/media/js/raphael-min.js"></script>-->
-<!--<script src="/BodegaJ/media/js/morris.js"></script>-->
+<script src="/media/js/jquery-ui.custom.min.js"></script>
+<script src="/media/js/fullcalendar.min.js"></script>
+<script src="/media/js/jquery.slimscroll.min.js"></script>
+<script src="/media/js/raphael-min.js"></script>
+<script src="/media/js/morris.min.js"></script>
+<script src="/media/js/moment.min.js"></script>
+<script src="/media/js/daterangepicker.js"></script>
+<script src="/media/js/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="/media/js/jquery-jvectormap-world-merc-en.js"></script>
+<script src="/media/js/gdp-data.js"></script>
+<script src="/media/js/select2.min.js"></script>
+<script src="/media/js/flot/jquery.flot.js"></script>
+<script src="/media/js/flot/jquery.flot.min.js"></script>
+<script src="/media/js/flot/jquery.flot.pie.min.js"></script>
+<script src="/media/js/flot/jquery.flot.stack.min.js"></script>
+<script src="/media/js/flot/jquery.flot.resize.min.js"></script>
+<script src="/media/js/flot/jquery.flot.time.min.js"></script>
+<script src="/media/js/flot/jquery.flot.threshold.js"></script>
+<!--<script src="/media/js/raphael-min.js"></script>-->
+<!--<script src="/media/js/morris.js"></script>-->
 
-<script src="/BodegaJ/media/js/jquery.maskedinput.min.js"></script>
-<script src="/BodegaJ/media/js/bootstrap-datepicker.js"></script>
-<script src="/BodegaJ/media/js/moment.min.js"></script>
-<script src="/BodegaJ/media/js/daterangepicker.js"></script>
-<script src="/BodegaJ/media/js/bootstrap-timepicker.min.js"></script>
-<script src="/BodegaJ/media/js/select2.min.js"></script>
-<script src="/BodegaJ/media/js/hogan.js"></script>
-<script src="/BodegaJ/media/js/typeahead.min.js"></script>
-<script src="/BodegaJ/media/js/jquery.pwstrength.js"></script>
-<script src="/BodegaJ/media/js/jquery.dataTables.min.js"></script>
-<script src="/BodegaJ/media/js/dataTables.bootstrap.min.js"></script>
-<script src="/BodegaJ/media/js/jquery.PrintArea.js"></script>
+<script src="/media/js/jquery.maskedinput.min.js"></script>
+<script src="/media/js/bootstrap-datepicker.js"></script>
+<script src="/media/js/moment.min.js"></script>
+<script src="/media/js/daterangepicker.js"></script>
+<script src="/media/js/bootstrap-timepicker.min.js"></script>
+<script src="/media/js/select2.min.js"></script>
+<script src="/media/js/hogan.js"></script>
+<script src="/media/js/typeahead.min.js"></script>
+<script src="/media/js/jquery.pwstrength.js"></script>
+<script src="/media/js/jquery.dataTables.min.js"></script>
+<script src="/media/js/dataTables.bootstrap.min.js"></script>
+<script src="/media/js/jquery.PrintArea.js"></script>
 
 <!-- theme scripts -->
-<script src="/BodegaJ/media/js/scripts.js"></script>
+<script src="/media/js/scripts.js"></script>
 
 <!-- this page specific inline scripts -->
 <script>

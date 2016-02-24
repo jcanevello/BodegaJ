@@ -30,12 +30,12 @@
                                 <td><?php echo $oProducto->fecha_vencimiento ?></td>
                                 <?php $oProveedor = ORM::factory('Proveedor', $oProducto->id_proveedor) ?>
                                 <?php /* <td><?php echo $oProveedor->nombre ?></td> */ ?>
-                                <td><a href="/BodegaJ/producto/editar/<?php echo $oProducto->id ?>" class="table-link">
+                                <td><a href="/producto/editar/<?php echo $oProducto->id ?>" class="table-link">
                                         <span class="fa-stack">
                                             <i class="fa fa-square fa-stack-2x"></i>
                                             <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
                                         </span>
-                                    </a><a href="/BodegaJ/producto/eliminar/<?php echo $oProducto->id ?>" class="table-link danger">
+                                    </a><a href="/producto/eliminar/<?php echo $oProducto->id ?>" class="table-link danger">
                                         <span class="fa-stack">
                                             <i class="fa fa-square fa-stack-2x"></i>
                                             <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>

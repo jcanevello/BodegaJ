@@ -47,7 +47,7 @@
 
                 <div class="form-group">
                     <div class="col-lg-offset-2 col-lg-10">
-                        <a href="/BodegaJ/usuario" class="btn btn-default">Cancelar</a>
+                        <a href="/usuario" class="btn btn-default">Cancelar</a>
                         <button type="submit" class="btn btn-success">Guardar</button>
                     </div>
                 </div><br><br><br><br><br><br>

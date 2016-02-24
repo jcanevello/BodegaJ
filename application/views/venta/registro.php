@@ -45,7 +45,7 @@
         </div>
         <div class="main-box clearfix">
 
-            <form id="form_new_pedido" action="/BodegaJ/venta/registro" method="POST">
+            <form id="form_new_pedido" action="/venta/registro" method="POST">
                 <div class="form-group">
                     <div class="table-responsive">
                         <table class="table" id="table-venta">

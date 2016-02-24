@@ -9,14 +9,14 @@
         <title>Bodega Jessica</title>
 
         <!-- bootstrap -->
-        <link href="/BodegaJ/media/css/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link href="/media/css/bootstrap/bootstrap.css" rel="stylesheet" />
 
         <!-- libraries -->
-        <link href="/BodegaJ/media/css/libs/font-awesome.css" type="text/css" rel="stylesheet" />
+        <link href="/media/css/libs/font-awesome.css" type="text/css" rel="stylesheet" />
 
         <!-- global styles -->
-        <link rel="stylesheet" type="text/css" href="/BodegaJ/media/css/compiled/layout.css">
-        <link rel="stylesheet" type="text/css" href="/BodegaJ/media/css/compiled/elements.css">
+        <link rel="stylesheet" type="text/css" href="/media/css/compiled/layout.css">
+        <link rel="stylesheet" type="text/css" href="/media/css/compiled/elements.css">
 
         <!-- this page specific styles -->
 
@@ -24,11 +24,11 @@
         <link href='../fonts.googleapis.com/cssf58a.css?family=Open+Sans:400,600,700,300|Titillium+Web:200,300,400' rel='stylesheet' type='text/css'>
 
         <!--[if lt IE 9]>
-            <script src="/BodegaJ/media/js/html5shiv.js"></script>
-            <script src="/BodegaJ/media/js/respond.min.js"></script>
+            <script src="/media/js/html5shiv.js"></script>
+            <script src="/media/js/respond.min.js"></script>
         <![endif]-->
         <!--[if lt IE 8]>
-            <link href="/BodegaJ/media/css/libs/font-awesome-ie7.css" type="text/css" rel="stylesheet" />
+            <link href="/media/css/libs/font-awesome-ie7.css" type="text/css" rel="stylesheet" />
         <![endif]-->
 
     </head>
@@ -50,9 +50,9 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div id="login-box-inner">
-                                    <!-- <img src="/BodegaJ/media/img/logo-login.png" alt="SuperheroAdmin" class="img-responsive" id="login-logo"/> -->
+                                    <!-- <img src="/media/img/logo-login.png" alt="SuperheroAdmin" class="img-responsive" id="login-logo"/> -->
                                     <div id="login-logo">
-                                        <img src="/BodegaJ/media/img/logo-login.png" alt=""/> Bodega Jessica
+                                        <img src="/media/img/logo-login.png" alt=""/> Bodega Jessica
                                     </div>
 
                                     <form role="form" action="" method="POST">
@@ -87,14 +87,14 @@
         </div>
 
         <!-- global scripts -->
-        <script src="/BodegaJ/media/js/jquery.js"></script>
-        <script src="/BodegaJ/media/js/bootstrap.js"></script>
+        <script src="/media/js/jquery.js"></script>
+        <script src="/media/js/bootstrap.js"></script>
 
         <!-- this page specific scripts -->
 
 
         <!-- theme scripts -->
-        <script src="/BodegaJ/media/js/scripts.js"></script>
+        <script src="/media/js/scripts.js"></script>
 
         <!-- this page specific inline scripts -->
 

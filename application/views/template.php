@@ -9,28 +9,28 @@
         <title>Bodega Jessica</title>
 
         <!-- bootstrap -->
-        <link href="/BodegaJ/media/css/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link href="/media/css/bootstrap/bootstrap.css" rel="stylesheet" />
 
         <!-- libraries -->
-        <!-- <link href="/BodegaJ/media/css/libs/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" /> -->
-        <link href="/BodegaJ/media/css/libs/font-awesome.css" type="text/css" rel="stylesheet" />
+        <!-- <link href="/media/css/libs/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" /> -->
+        <link href="/media/css/libs/font-awesome.css" type="text/css" rel="stylesheet" />
 
         <!-- global styles -->
-        <link rel="stylesheet" type="text/css" href="/BodegaJ/media/css/compiled/layout.css">
-        <link rel="stylesheet" type="text/css" href="/BodegaJ/media/css/compiled/elements.css">
+        <link rel="stylesheet" type="text/css" href="/media/css/compiled/layout.css">
+        <link rel="stylesheet" type="text/css" href="/media/css/compiled/elements.css">
 
         <!-- this page specific styles -->
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/fullcalendar.css" type="text/css" />
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/fullcalendar.print.css" type="text/css" media="print" />
-        <link rel="stylesheet" href="/BodegaJ/media/css/compiled/calendar.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/morris.css" type="text/css" />
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/daterangepicker.css" type="text/css" />
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/jquery-jvectormap-1.2.2.css" type="text/css" />
+        <link rel="stylesheet" href="/media/css/libs/fullcalendar.css" type="text/css" />
+        <link rel="stylesheet" href="/media/css/libs/fullcalendar.print.css" type="text/css" media="print" />
+        <link rel="stylesheet" href="/media/css/compiled/calendar.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/media/css/libs/morris.css" type="text/css" />
+        <link rel="stylesheet" href="/media/css/libs/daterangepicker.css" type="text/css" />
+        <link rel="stylesheet" href="/media/css/libs/jquery-jvectormap-1.2.2.css" type="text/css" />
 
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/datepicker.css" type="text/css" />
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/daterangepicker.css" type="text/css" />
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/bootstrap-timepicker.css" type="text/css" />
-        <link rel="stylesheet" href="/BodegaJ/media/css/libs/select2.css" type="text/css" />
+        <link rel="stylesheet" href="/media/css/libs/datepicker.css" type="text/css" />
+        <link rel="stylesheet" href="/media/css/libs/daterangepicker.css" type="text/css" />
+        <link rel="stylesheet" href="/media/css/libs/bootstrap-timepicker.css" type="text/css" />
+        <link rel="stylesheet" href="/media/css/libs/select2.css" type="text/css" />
 
         <!-- Favicon -->
         <link type="image/x-icon" href="favicon.png" rel="shortcut icon"/>
@@ -43,7 +43,7 @@
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <!--[if lt IE 8]>
-            <link href="/BodegaJ/media/css/libs/font-awesome-ie7.css" type="text/css" rel="stylesheet" />
+            <link href="/media/css/libs/font-awesome-ie7.css" type="text/css" rel="stylesheet" />
         <![endif]-->
         <style>
             .form-inline input[type="search"].form-control {

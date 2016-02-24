@@ -90,7 +90,7 @@ $(function ($) {
     $('#btn-mostrar-todo').click(function () {
         var r = confirm('Esta acción borrará las cantidades ingresadas');
         if (r == true)
-            window.location = "/BodegaJ/pedido/nuevo/t";
+            window.location = "/pedido/nuevo/t";
         return false;
     })
 

@@ -14,13 +14,13 @@ $action = Request::$current->action();
                     </a>
                 </li>
                 <li class="<?php echo ($controller=='Venta' && $action=='index') ? 'active' : NULL  ?>">
-                    <a href="/BodegaJ/venta">
+                    <a href="/venta">
                         <i class="fa  fa-shopping-cart"></i>
                         <span>Ventas</span>
                     </a>
                 </li>
                 <li class="<?php echo ($controller=='Venta' && $action=='nuevo') ? 'active' : NULL  ?>">
-                    <a href="/BodegaJ/venta/registro">
+                    <a href="/venta/registro">
                         <i class="fa  fa-shopping-cart"></i>
                         <span>Registrar Venta</span>
                     </a>
@@ -33,10 +33,10 @@ $action = Request::$current->action();
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="/BodegaJ/producto"class="<?php echo ($controller=='Producto' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
+                            <a href="/producto"class="<?php echo ($controller=='Producto' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
                         </li>
                         <li>
-                            <a href="/BodegaJ/producto/nuevo"class="<?php echo ($controller=='Producto' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
+                            <a href="/producto/nuevo"class="<?php echo ($controller=='Producto' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
                         </li>
                     </ul>
                 </li>
@@ -48,10 +48,10 @@ $action = Request::$current->action();
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="/BodegaJ/pedido"class="<?php echo ($controller=='Pedido' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
+                            <a href="/pedido"class="<?php echo ($controller=='Pedido' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
                         </li>
                         <li>
-                            <a href="/BodegaJ/pedido/nuevo"class="<?php echo ($controller=='Pedido' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
+                            <a href="/pedido/nuevo"class="<?php echo ($controller=='Pedido' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
                         </li>
                     </ul>
                 </li>
@@ -63,10 +63,10 @@ $action = Request::$current->action();
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="/BodegaJ/proveedor"class="<?php echo ($controller=='Proveedor' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
+                            <a href="/proveedor"class="<?php echo ($controller=='Proveedor' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
                         </li>
                         <li>
-                            <a href="/BodegaJ/proveedor/nuevo"class="<?php echo ($controller=='Proveedor' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
+                            <a href="/proveedor/nuevo"class="<?php echo ($controller=='Proveedor' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
                         </li>
                     </ul>
                 </li>
@@ -78,10 +78,10 @@ $action = Request::$current->action();
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="/BodegaJ/usuario"class="<?php echo ($controller=='Usuario' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
+                            <a href="/usuario"class="<?php echo ($controller=='Usuario' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
                         </li>
                         <li>
-                            <a href="/BodegaJ/usuario/nuevo"class="<?php echo ($controller=='Usuario' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
+                            <a href="/usuario/nuevo"class="<?php echo ($controller=='Usuario' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
                         </li>
                     </ul>
                 </li>
@@ -91,7 +91,7 @@ $action = Request::$current->action();
             <ul class="nav nav-pills nav-stacked">
                 
                 <li class="<?php echo ($controller=='Pedido') ? 'active' : NULL  ?>">
-                    <a href="/BodegaJ/pedido">
+                    <a href="/pedido">
                         <i class="fa fa-plus-square"></i>
                         <span>Pedidos</span>
                     </a>
@@ -104,10 +104,10 @@ $action = Request::$current->action();
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="/BodegaJ/producto"class="<?php echo ($controller=='Producto' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
+                            <a href="/producto"class="<?php echo ($controller=='Producto' && $action=='index') ? 'active' : NULL  ?>">Ver Todos</a>
                         </li>
                         <li>
-                            <a href="/BodegaJ/producto/nuevo"class="<?php echo ($controller=='Producto' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
+                            <a href="/producto/nuevo"class="<?php echo ($controller=='Producto' && $action=='nuevo') ? 'active' : NULL  ?>">Nuevo</a>
                         </li>
                     </ul>
                 </li>
