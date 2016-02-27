@@ -20,7 +20,7 @@ return array
 			 */
 			'hostname'   => 'localhost',
 			'database'   => 'bodegaj',
-			'username'   => 'root',
+			'username'   => 'bodega',
 			'password'   => '123456',
 			'persistent' => FALSE,
 		),

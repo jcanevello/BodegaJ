@@ -43,12 +43,26 @@ class Controller_Venta extends Controller_Main {
                 $producto->stock -=$oItem->cantidad;
                 $producto->save();
             }
-            $this->redirect('/venta/orden/'.$oOrden->id);
+            
+            $this->redirect('/venta/orden_pago/'.$oOrden->id);
+//            $this->redirect('/venta/orden/'.$oOrden->id);
         }
 
         $aProducto = ORM::factory('Producto')->find_all();
         $this->template->content = View::factory('venta/registro')
             ->set('aProducto', $aProducto);
+    }
+    
+    public function action_orden_pago()
+    {
+        $oOrden = ORM::factory('Orden', $this->request->param('id'));
+        $aItem = ORM::factory('Item')
+            ->where('id_orden', '=', $oOrden->id)
+            ->find_all();
+        
+        $this->template->content = View::factory('venta/ordenpago')
+            ->set('oOrden', $oOrden)
+            ->set('aItem', $aItem);
     }
 
     public function action_eliminar()
